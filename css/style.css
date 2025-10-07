@@ -1,0 +1,120 @@
+:root {
+  --primary-color: #00f904;
+  --secondary-color: #000000;
+  --background-color: #000000;
+  --text-color: #00ff11;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: var(--background-color);
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #000000, #003300);
+  color: var(--text-color);
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #00b904;
+}
+
+.intro {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.topic-card {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 0 10px var(--primary-color);
+  transition: transform 0.3s;
+  color: var(--text-color);
+}
+
+.topic-card:hover {
+  transform: scale(1.05);
+}
+
+.main{
+    background-color: var(--background-color);
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid var(--primary-color);
+  background: var(--background-color);
+  color: var(--text-color);
+}
