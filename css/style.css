@@ -45,6 +45,7 @@ nav a {
   transition: color 0.3s;
 }
 
+
 nav a:hover {
   color: var(--primary-color);
 }
@@ -70,6 +71,18 @@ nav a:hover {
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s;
+}
+
+.info-box{
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 0 10px var(--primary-color);
+  transition: transform 0.3s;
+  color: var(--text-color);
 }
 
 .cta-btn:hover {
@@ -107,14 +120,18 @@ nav a:hover {
 }
 
 .main{
+    
     background-color: var(--background-color);
+    color: var(--primary-color);
 }
 
 
 footer {
   text-align: center;
+  height: 150px;
   padding: 1rem;
   border-top: 1px solid var(--primary-color);
   background: var(--background-color);
   color: var(--text-color);
+  margin-bottom:0 ;
 }
